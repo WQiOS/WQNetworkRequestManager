@@ -10,6 +10,7 @@
 #import <AVFoundation/AVAsset.h>
 #import <AVFoundation/AVAssetExportSession.h>
 #import <AVFoundation/AVMediaFormat.h>
+#import "AFNetworking.h"
 
 @implementation WQNetworkRequestManager
 
