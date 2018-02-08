@@ -18,5 +18,6 @@ s.requires_arc = true # 是否启用ARC
 s.source       = { :git => "https://github.com/WQiOS/WQNetworkRequestManager.git", :tag => "#{s.version}" }
 s.source_files = "WQNetworkRequestManager/*.{h,m}"
 s.ios.framework  = 'UIKit'
+s.dependency 'AFNetworking'
 
 end
